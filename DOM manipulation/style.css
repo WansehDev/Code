@@ -31,6 +31,7 @@ button {
 }
 
 .remove-btn {
+  cursor: pointer;
   background-color: red;
   color: white;
   border: red;
