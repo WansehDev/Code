@@ -1,0 +1,67 @@
+/* Selector {
+    Property: value;
+
+} */
+
+* {
+    text-align: right;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+h2 {
+    color: red;
+}
+  
+p {
+    color: #AA4139;
+    text-align: center;
+    border: 5px solid rgb(255, 176, 176, 0.5);
+    cursor: pointer;
+}
+
+p {
+    color: black;
+    line-height: 50px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100%; 
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+img {
+    float: right;
+}
+
+footer {
+    clear: both;
+    text-align: center ;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext{
+    text-align: center;
+    border: 5px dashed green
+}
+
+.active:hover {
+    color: red;
+    border: 5px solid rgb(255, 176, 176, 0.5);
+}
+
+#div1 {
+    background: rgba(0,0,255,0.2);
+}
+
+#div2 {
+    background: rgba(255,0,0,0.2)
+}
+
